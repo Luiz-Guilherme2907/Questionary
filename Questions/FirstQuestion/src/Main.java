@@ -10,6 +10,6 @@ public class Main {
             soma = soma + k;
         }
         // O resultado do código é a soma dos primeiros 13 números inteiros.
-        System.out.println(soma);
+        System.out.println("A soma é: " + soma);
     }
 }
