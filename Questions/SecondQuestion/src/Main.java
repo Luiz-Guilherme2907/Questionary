@@ -5,7 +5,6 @@ public class Main {
         // Definindo o número limite da sequência de Fibonacci
         int limite = 100;
 
-        // Calculando e armazenando os valores da sequência de Fibonacci até o limite
         int a = 0;
         int b = 1;
         int c = 0;
@@ -16,8 +15,6 @@ public class Main {
             a = b;
             b = c;
         }
-
-        // Verificando se um número pertence à sequência de Fibonacci
         Scanner scanner = new Scanner(System.in);
         System.out.print("Informe um número para verificar se pertence à sequência de Fibonacci: ");
         int numero = scanner.nextInt();
